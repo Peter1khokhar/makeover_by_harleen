@@ -90,7 +90,7 @@ export function Gallery() {
                   height: '100%',
                   background: t.image
                    ? `linear-gradient(to top, rgba(0,0,0,0.4), transparent), url(${t.image}) center/cover no-repeat`
-                   : t.hue,
+                   : 'var(--color-dark)',
                   position: 'relative',
                 }}
               >

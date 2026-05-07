@@ -137,5 +137,5 @@ const imgStyle = {
   width: '70%',
   borderRadius: 5,
   border: '1px solid var(--color-gold)', // 👈 theme border
-  objectFit: 'cover',
+  objectFit: 'cover' as const,
 }
